@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codice Member Get Member Generator</title>
+</head>
+
+<body>
+    <h1>Random Member Get Member Generator</h1>
+    <h2>Funzionamento</h2>
+    <p>Caro tabaccaio, al fine di garantire uno sconto MGM al tuo nuovo consumatore per un dispositivo IQOS ILUMA e/o LIL EZ, questo generatore di codici ti permetterà di recuperare un codice per lo sconto a lui dedicato. Questo è un servizio in cui il tuo ruolo è fondamentale. Infatti, i codici che potrai recuperare sono stati inseriti dai tabaccai per i tabaccai.
+        <br>
+        <br> Non sai come si recupera? Segui questa breve guida:
+        <br>
+        <br> Su <a href="https://www.openinsieme.com/" target="_blank">Openinsieme.com</a> cliccando sulla voce IQOS ILUMA ed in seguito su <b>Attivazioni</b> potrai accedere alla <b>ConsumerApp</b>. Su <b> Registrazioni </b>, una volta inserito il numero di telefono o mail del consumatore iscritto ed essere entrato nel suo profilo, ti basterà cliccare <b> Invia codice MGM</b> in alto a destra per inviare direttamente sul suo telefono, tramite sms, il codice alfanumerico da inserire in questo database.
+        <br>
+        <br> <b>Ricorda:</b> il codice è da inserire nel campo sottostante e potrà essere utilizzato da chi, come te, sta ricercando un codice per poter applicare uno sconto ulteriore.</p>
+
+    <h2> Non sai come si applica il codice MGM? Guarda <a href="file:///C:/Users/abelsito1/OneDrive%20-%20Philip%20Morris%20International/RE/MGM/Nuovo%20MGM%20come%20avere%20lo%20sconto.pdf" target="_blank">QUI</a></h2>
+    <h2> Immetti nel campo sottostante un nuovo codice MGM</h2>
+
+    <form name="createCode">
+        <input type="text" name="createCode" id="createCode"><br>
+        <button onclick="inviaCodiceMGM()" type="button">Inserisci un nuovo codice MGM nel database</button>
+    </form>
+
+    <h2>Genera il codice MGM</h2>
+    <p>Utilizzalo in fase di registrazione dati del nuovo consumatore. Grazie a questo codice, potrai applicare una scontistica, se disponibile, sui dispositivi IQOS ILUMA e LIL Ez</p>
+    <form name="getCode">
+        <input type="text" name="getCode" id="getCode"><br>
+        <button onclick="generaCodiceMGM()">Genera codice MGM</button>
+    </form>
+
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
