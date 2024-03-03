@@ -1,3 +1,5 @@
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+
 const apiUrl = 'https://mgm-generator-api.onrender.com/api/get';
 const apiSaveUrl = 'https://mgm-generator-api.onrender.com/api/save';
 
