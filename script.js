@@ -9,10 +9,10 @@ async function generaCodiceMGM() {
     const response = await fetch(apiUrl);
     const data = await response.json();
 
-    console.log(data);
-
     // Filtra solo gli oggetti con isValid a true
     const validObjects = data.filter(obj => obj.isValid);
+
+    console.log(validObjects);
 
     // Verifica che ci siano dati disponibili
     if (validObjects.length > 0) {
