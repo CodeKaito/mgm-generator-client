@@ -1,5 +1,5 @@
-const apiUrl = 'http://localhost:5001/api/get/';
-const apiSaveUrl = 'http://localhost:5001/api/save/';
+const apiUrl = 'https://mgm-generator-api.onrender.com/api/get';
+const apiSaveUrl = 'https://mgm-generator-api.onrender.com/api/save';
 
 let createCode = document.getElementById('createCode');
 let getCode = document.getElementById('getCode');
